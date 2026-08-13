@@ -17,6 +17,7 @@ public class JobController {
 
     @GetMapping({"/", "/home"})
     public String home() {
+
         return "home";
     }
 
@@ -36,4 +37,6 @@ public class JobController {
         model.addAttribute("jobPosts", service.getAllJobs());
         return "viewAllJob";
     }
+
+
 }

@@ -66,7 +66,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link"
-                       href="https://telusko.com/"
+                       href="https://portfolio-app-gadeshubhams-projects.vercel.app/"
                        target="_blank">
                         Contact
                     </a>
