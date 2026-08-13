@@ -22,7 +22,7 @@ public class JobController {
 
     @GetMapping("/addjob")
     public String addJob() {
-        return "addjob";
+        return "addJob";
     }
 
     @PostMapping("/handleForm")
@@ -34,6 +34,6 @@ public class JobController {
     @GetMapping("/viewalljobs")
     public String viewAllJobs(Model model) {
         model.addAttribute("jobPosts", service.getAllJobs());
-        return "viewAll";
+        return "viewAllJob";
     }
 }
